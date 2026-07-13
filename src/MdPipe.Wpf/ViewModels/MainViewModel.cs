@@ -126,9 +126,9 @@ public sealed class MainViewModel : ObservableObject
         catch (PythonNotFoundException)
         {
             IsReady = false;
-            StatusMessage = "Python is missing. Install Python 3.9 or later and reopen the app.";
+            StatusMessage = "Python is missing. Install Python 3.10 or later and reopen the app.";
             MessageBox.Show(
-                "MdPipe needs Python 3.9 or later installed on the system.\n\n" +
+                "MdPipe needs Python 3.10 or later installed on the system.\n\n" +
                 "Download it for free from python.org, install it, and reopen MdPipe.",
                 "Python missing",
                 MessageBoxButton.OK,
